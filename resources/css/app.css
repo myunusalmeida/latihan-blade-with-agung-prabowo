@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap");
+* {
+    font-family: "Poppins";
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+    @apply text-white bg-blue-500 px-4 py-2 rounded hover:bg-blue-900 transition-all;
+}
+.subtitle {
+    @apply text-teal-400;
+}
+.title {
+    @apply text-4xl text-slate-800 font-semibold;
+}
+.description {
+    @apply text-slate-400;
+}
+ul li a {
+    @apply hover:text-blue-500;
+}
+.tiga-kolom div {
+    @apply border-slate-100 border px-6 py-10;
+}
+.tiga-kolom div img {
+    @apply mx-auto mb-5;
+}
+.tiga-kolom div h2 {
+    @apply text-slate-800 text-xl  mt-8 mb-3;
+}
+.tiga-kolom p {
+    @apply text-slate-400;
+}
